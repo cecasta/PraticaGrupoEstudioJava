@@ -25,12 +25,12 @@ public class Ejercicioj {
 	
 	public void imprimirCotizacion() {
 		
-		System.out.println(     formatearTexto(this.marca, this.serial, this.tipo, this.cantidad, this.precio)    );
+		System.out.println(     formatearInfo(this.marca, this.serial, this.tipo, this.cantidad, this.precio)    );
 		
 		
 	}
 	
-	private String formatearTexto(String marca, String serial, String tipo, int cantidad, int precio) {
+	private String formatearInfo(String marca, String serial, String tipo, int cantidad, int precio) {
 		StringBuilder mensaje = new StringBuilder();
 		
 		mensaje.append("MARCA:    ");
