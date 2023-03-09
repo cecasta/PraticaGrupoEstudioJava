@@ -2,7 +2,7 @@ package com.practicajava.poo.ejercicio1;
 
 public class ImprimirFactura {
 
-    Factura factura = new Factura();
+    Factura factura;
 
     ImprimirFactura(Factura factura){
         this.factura = factura;

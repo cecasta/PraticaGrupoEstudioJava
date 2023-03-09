@@ -1,6 +1,6 @@
 package com.practicajava.poo.ejercicio1;
 
-public class Factura {
+abstract class Factura {
     private String numero;
     private String descripcion;
     private float valor;
@@ -12,11 +12,7 @@ public class Factura {
     private String proveedor;
 
 
-    public void escribirDatosFactura(){
-        StringBuilder datos = new StringBuilder();
-        datos.append(this.numero).append(" ").append(this.descripcion).append(" ").append(this.centroCosto);
-        System.out.println("datos = " + datos);
-    }
+    public abstract void escribirDatosFactura();
 
 
    public String getNumero() {

@@ -30,7 +30,7 @@ public class MainPagoFactura {
         facturaCobrar.setIva(19);
         facturaCobrar.setCentroCosto("POP1231232");
         pagarFacturaCobrar.pagar();
-        facturaCobrar.escribirDatosFactura();
+       // facturaCobrar.escribirDatosFactura();
 
 
 
