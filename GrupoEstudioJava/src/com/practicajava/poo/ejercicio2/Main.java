@@ -6,7 +6,7 @@ public class Main {
         Correo correo = new Correo();
         EnviarCorreos enviarCorreos = new EnviarCorreos(correo);
         correo.setFrom("ccastano@pratechgroup.com");
-        correo.setTo("jlondonogmail.com");
+        correo.setTo("jlondono@gmail.com");
         correo.setBody("Correo de prueba");
 
         enviarCorreos.enviar();
