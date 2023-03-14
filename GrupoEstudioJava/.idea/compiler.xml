@@ -2,8 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="GrupoEstudioJava" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel target="17">
-      <module name="GrupoEstudioJava" target="" />
+      <module name="GrupoEstudioJava" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
